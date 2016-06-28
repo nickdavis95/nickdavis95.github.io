@@ -1,0 +1,38 @@
+body {
+	background: beige;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+div {
+	background: firebrick;
+}
+
+.white-text {
+	color: white;
+}
+
+#socialmediabar {
+  margin-top: 0;
+  background-color: darkslategray;
+  display: inline-block;
+  width: 100%;
+}
+
+#socialmediabar li{
+	list-style-type: none;
+	display: inline-block;
+}
+
+#socialmediabar li a{
+	display: block;
+	width: 120px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	color: white;
+}
+
+#socialmediabar li a:hover{
+	background-color: black;
+}
